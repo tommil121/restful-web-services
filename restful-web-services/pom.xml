@@ -28,6 +28,18 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
+		<!-- Step 9a - Adding Monitoring with actuator and hal browser -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		
+		<!-- Step 9a - Adding Monitoring with actuator and hal browser -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-rest-hal-browser</artifactId>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
@@ -42,18 +54,18 @@
 		</dependency>
 		
 		<!-- Step 8a Utilizing Swagger -->
-		<!--<dependency>
+		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
-			<version>2.4.0</version>
-		</dependency> -->
+			<version>2.6.1</version>
+		</dependency> 
 		
 		<!-- Step 8a Utilizing Swagger -->
-		<!--<dependency>
+		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
-			<version>2.4.0</version>
-		</dependency> -->
+			<version>2.6.1</version>
+		</dependency> 
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
